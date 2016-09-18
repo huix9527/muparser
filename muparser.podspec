@@ -7,5 +7,5 @@ Pod::Spec.new do |spec|
   spec.summary      = 'muParser is an extensible high performance math expression parser library'
   spec.source       = { :git => 'https://github.com/huix9527/muparser.git'}
   spec.source_files = 'src/*.cpp', 'include/*.h'
-  spec.ios.deployment_target  = '8.0'
+  spec.platform = :ios, '7.0'
 end
