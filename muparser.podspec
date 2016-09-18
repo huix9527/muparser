@@ -6,5 +6,5 @@ Pod::Spec.new do |spec|
   spec.authors      = { 'Ingo Berg' => 'webmaster@beltoforion.de' }
   spec.summary      = 'muParser is an extensible high performance math expression parser library'
   spec.source       = { :git => 'https://github.com/huix9527/muparser.git'}
-  spec.source_files = 'Reachability.{h,m}'
+  spec.source_files = 'src/*.cpp', 'include/*.h'
 end
